@@ -2,6 +2,7 @@
 notes.txt
 customer-support
 .customer-support
+e_commerce_bot.egg-info
 __pycache__/
 .vscode/
 .ipynb_checkpoints/
@@ -73,4 +74,4 @@ build/
 *.log.dll
 *.log.bin
 *.log.iso
-
+e_commerce_bot.egg-info/
