@@ -1,5 +1,18 @@
-from langchain_astradb import AstraDB
-from dotenv import load_dotenv()
+from langchain_astradb import AstraDBVectorStore
+#from dotenv import load_dotenv
 import os
 import pandas as pd
-from data_ingestion.data_transorm import data_converter
+from data_ingestion.data_transform import data_converter
+
+class ingest_data:
+
+    def __init__(self):
+        print("Data Ingestion class has init...")
+
+    def data_ingestion(self):
+        pass
+
+
+
+if __name__=="__main__":
+    data_ingestion=ingest_data()
